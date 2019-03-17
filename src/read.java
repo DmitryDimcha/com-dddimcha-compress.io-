@@ -22,8 +22,9 @@ public class read {
         //DirectoryRemaper directoryRemaper = new DirectoryRemaper();
         //directoryRemaper.ProjectDesctiptor(from, to, name);
         Main main = new Main();
-        //main.Zip(from, to, name);
-        main.UnZip(from,to,name);
+
+        main.Zip(from, to, name);
+        //main.UnZip(from,to,name);
     }
 
 }

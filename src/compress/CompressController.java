@@ -7,6 +7,8 @@ import java.nio.file.Files;
 import static compress.File2Byte.getBytesFromFile;
 import static compress.QuickLZ.compress;
 import static compress.QuickLZ.decompress;
+import static compress.GZIP.gzipCompress;
+import static compress.GZIP.gzipUncompress;
 
 public class CompressController {
     private String path;
@@ -15,7 +17,8 @@ public class CompressController {
     public void Compress() {
         File f = new File(path);
         try {
-            Files.write(new File(destination).toPath(),compress(getBytesFromFile(f), 3));
+          //  Files.write(new File(destination).toPath(),compress(getBytesFromFile(f), 3)); -QickLZ
+            Files.write(new File(destination).toPath(),gzipCompress(getBytesFromFile(f)));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -24,7 +27,8 @@ public class CompressController {
     public void Decompress() {
         File f = new File(path);
         try {
-            Files.write(new File(destination).toPath(),decompress(getBytesFromFile(f)));
+            //Files.write(new File(destination).toPath(),decompress(getBytesFromFile(f))); -QickLZ
+            Files.write(new File(destination).toPath(),gzipUncompress(getBytesFromFile(f)));
         } catch (IOException e) {
             e.printStackTrace();
         }
