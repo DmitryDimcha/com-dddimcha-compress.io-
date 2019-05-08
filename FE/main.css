@@ -1,0 +1,46 @@
+/* Frame */
+
+/* Desktop */
+body {
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #F2F2F2;
+mix-blend-mode: darken;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container{
+/* Frame */
+position: absolute;
+width: 1440px;
+height: 71px;
+left: 0px;
+top: 0px;
+
+background: #11192F;
+mix-blend-mode: color-burn;
+backdrop-filter: blur(4px);/* Note: backdrop-filter has minimal browser support */
+}
+
+.login{
+/* Component */
+
+position: absolute;
+width: 513px;
+height: 953px;
+left: 927px;
+top: 71px;
+}
+
+.mainFrame{
+/* Frame 2 */
+position: absolute;
+width: 927px;
+height: 953px;
+left: 0px;
+top: 71px;
+
+background: #FFFFFF;
+
+}

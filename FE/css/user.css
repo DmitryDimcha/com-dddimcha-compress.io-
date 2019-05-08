@@ -1,0 +1,159 @@
+/* Frame */
+
+/* Desktop */
+body {
+
+/*position: absolute;
+width: 1440px;
+height: 1024px;
+*/
+background: #F2F2F2;
+mix-blend-mode: darken;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container{
+position: absolute;
+width: 100%;
+/*width: 1440px;*/
+height: 71px;
+left: 0px;
+top: 0px;
+background: #3c7ab8 url('../img/1.png') no-repeat left;
+backdrop-filter: blur(4px);/
+}
+
+.frame{
+background-image: url('../img/2.png');
+position: absolute;
+width: 927px;
+height: 953px;
+left: 0px;
+top: 71px;
+}
+
+
+.login{
+background: #3D3D3D;
+position: absolute;
+/*width: 513px;*/
+width: 44.24%;
+height: 953px;
+left: 927px;
+top: 71px;
+}
+
+.signin{
+position: absolute;
+left: 46.59%;
+right: 38.01%;
+top: 19.31%;
+bottom: 79.12%;
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.login-form{
+position: absolute;
+left: 33.72%;
+right: 22.42%;
+top: 22.25%;
+bottom: 74.4%;
+border-width:0px;
+padding-left: 16px;
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.password-form{
+border-width:0px;
+position: absolute;
+left: 33.72%;
+right: 22.42%;
+top: 27.28%;
+bottom: 69.36%;
+width: 225
+height:32;
+padding-left: 16px;
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder{
+left: 36.84%;
+right: 55.17%;
+top: 23.5%;
+bottom: 75.13%;
+opacity: .5;
+font-family: Roboto Mono;
+font-style: italic;
+font-weight: 200;
+font-size: 12px;
+line-height: 14px;
+color: rgba(9, 9, 9, 0.5);
+backdrop-filter: blur(4px)
+}
+
+
+
+.btn{
+position: absolute;
+left: 48.73%;
+right: 39.18%;
+top: 34.1%;
+bottom: 63.69%;
+color: #FFFFFF;
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width: 2000;
+height:300;
+background: #6385FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-width: 0px;
+}
+
+.btn-text{
+position: center;
+left: 51.66%;
+right: 40.35%;
+top: 34.52%;
+bottom: 64.11%;
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checkstyle{
+position: absolute;
+left: 36.6%;
+right: 46.41%;
+top: 31.27%;
+bottom: 67.37%;
+opacity: .5;
+
+font-family: Roboto Mono;
+font-style: italic;
+font-weight: 200;
+font-size: 9px;
+line-height: 11px;
+color: rgba(255, 255, 255, 0.5);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checkbox{
+	background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
